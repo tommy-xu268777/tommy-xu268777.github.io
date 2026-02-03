@@ -25,9 +25,15 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 
 **Selected Conference Publications**
 
-1. [<span style="color: #d32f2f; font-weight: bold;">SenSys '26</span>] **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al., "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels", Saint-Malo, France, May 2026. (Acceptance rate: 52/263 = 19.8%)
+[<span style="color: #d32f2f; font-weight: bold;">ICML '26 Under Submission</span>] **Haowen Xu**, Xue Tan, Lei Ma, Zhihao Zhang, Chao Wang, Qingze Wang, Ping Chen, Jun Dai, Xiaoyan Sun. "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems"
 
-2. [<span style="color: #d32f2f; font-weight: bold;">ICICS '25</span>] **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al., "MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals", Nanjing, China, October 2025. (Acceptance rate: 39/139 = 28%)
+[<span style="color: #d32f2f; font-weight: bold;">ICML '26 Under Submission</span>] Chao Wang, Zhihao Zhang, **Haowen Xu**, Qingze Wang, Zhihao Hao, Xiaoyan Sun, Jun Dai. "CryptoSwin: Windowed Block-Diagonal Attention for FHE Vision Transformers"
+
+[<span style="color: #d32f2f; font-weight: bold;">S&P '26 Under Submission</span>] Zhihao Zhang, Chao Wang, **Haowen Xu**, Keaton Mangone, Lily Bromberger, April Zingher, Ella Dunne, Xiaoyan Sun, Jun Dai. "Behave As You Serve: Lightweight Flow Anomaly Detection Guided by Server-side Routine Behaviors Clustering"
+
+[<span style="color: #d32f2f; font-weight: bold;">SenSys '26</span>] **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al., "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels", Saint-Malo, France, May 2026. (Acceptance rate: 52/263 = 19.8%)
+
+[<span style="color: #d32f2f; font-weight: bold;">ICICS '25</span>] **Haowen Xu**, Tianya Zhao, et al., "MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals", Nanjing, China, October 2025. (Acceptance rate: 39/139 = 28%)
 
 
 <h2 id="talks">Talks</h2>
