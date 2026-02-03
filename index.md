@@ -13,16 +13,15 @@ My research focuses on **Trustworthy Artificial Intelligence** and **Cyber-Physi
 
 ---
 
-<h2 id="publications">Publications</h2>
+<h2 id="publications">📄 Publications</h2>
 
+Here are some selected publications. For a full list, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=q2IPL-QAAAAJ&hl=en).
 
-- **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al.  
-  *EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels.*  
-  ACM SenSys 2025.
+## Selected Conference Publications
 
-- **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al.  
-  *MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals.*  
-  ICICS 2025.
+1. **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al., "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels", in *Proc. ACM SenSys 2026*, Saint-Malo, France, May 2026. (Acceptance rate: 52/263 = 19.8%)
+
+2. **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al., "MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals", in *Proc. ICICS 2025*, Nanjing, China, October 2025. (Acceptance rate: 39/139 = 28%)
 
 ---
 
