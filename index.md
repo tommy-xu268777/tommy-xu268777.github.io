@@ -36,10 +36,10 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 [<span style="color: #d32f2f; font-weight: bold;">ICICS '25</span>] **Haowen Xu**, Tianya Zhao, et al., "MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals", Nanjing, China, October 2025. (Acceptance rate: 39/139 = 28%)
 
 
-<h2 id="talks">Talks</h2>
+<!-- <h2 id="talks">Talks</h2>
 
 - EMPalm, ACM SenSys 2025  
-- MagWatch, ICICS 2025
+- MagWatch, ICICS 2025 -->
 
 
 <h2 id="teaching">Teaching</h2>
