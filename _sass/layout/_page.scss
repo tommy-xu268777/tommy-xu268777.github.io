@@ -51,12 +51,13 @@
 .page__content {
 
   h2 {
+    margin-top: 0;
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
   }
 
   p, li, dl {
-    font-size: 1em;
+    font-size: $type-size-6;
   }
 
   /* paragraph indents */
