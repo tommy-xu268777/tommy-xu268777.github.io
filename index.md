@@ -9,7 +9,7 @@ show_title: false
 
 My name is Haowen Xu, I am current a second-year Ph.D. student at Worcester Polytechnic Institute (WPI), where I am fortunate to be advised by Prof. Xiaoyan Sun and co-advised by Prof. Jun Dai. Prior to joining WPI, I earned my B.S. degree from Nanjing University in 2024.
 
-My research focuses on **trustworthy artificial intelligence** and **cyber-physical system security**. I am passionate about building AI systems that are not only intelligent but also reliable, secure, and deployable in safety-critical applications. My work explores the challenges at the intersection of machine learning robustness and the security of interconnected physical systems.
+My research focuses on **Trustworthy Artificial Intelligence** and **Cyber-physical System Security**. I am passionate about building AI systems that are not only intelligent but also reliable, secure, and deployable in safety-critical applications. My work explores the challenges at the intersection of machine learning robustness and the security of interconnected physical systems.
 
 ---
 
