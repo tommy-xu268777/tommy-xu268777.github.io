@@ -119,7 +119,12 @@ html {
     margin-bottom: 1.2em;
   }
 }
-/* Hide the footer */
-.page__footer {
-  display: none;
+/* ===== Force hide footer (Academic Pages / Minimal Mistakes) ===== */
+.site-footer,
+.page__footer,
+.footer {
+  display: none !important;
+  height: 0 !important;
+  padding: 0 !important;
+  margin: 0 !important;
 }
