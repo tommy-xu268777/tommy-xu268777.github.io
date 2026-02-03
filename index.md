@@ -1,11 +1,10 @@
 ---
 layout: single
-title: "Haowen Xu"
 permalink: /
 author_profile: true
 ---
 
-## Bio {#bio}
+## About Me {#bio}
 
 I am a PhD student in Computer Science at Worcester Polytechnic Institute (WPI).
 My research focuses on electromagnetic side-channel attacks and privacy leakage
