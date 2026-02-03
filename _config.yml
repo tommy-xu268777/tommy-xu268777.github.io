@@ -26,9 +26,9 @@ author:
   avatar           : "profile.png"
   name             : "Haowen Xu"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : #
   location         : "Worcester, MA, USA"
-  employer         : "Worcester Polytechnic Institute (WPI)"
+  employer         : "Worcester Polytechnic Institute"
   uri              : # URL
   email            : "hxu4@wpi.edu" 
 
