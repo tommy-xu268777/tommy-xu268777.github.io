@@ -5,7 +5,7 @@ author_profile: true
 show_title: false
 ---
 
-<h2 id="bio">About Me</h2>
+<div id="bio"></div>
 
 My name is Haowen Xu, I am current a second-year Ph.D. student at Worcester Polytechnic Institute (WPI), where I am fortunate to be advised by Prof. Xiaoyan Sun and co-advised by Prof. Jun Dai. Prior to joining WPI, I earned my B.S. degree from Nanjing University in 2024.
 
