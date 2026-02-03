@@ -17,7 +17,7 @@ My research focuses on **Trustworthy Artificial Intelligence** and **Cyber-Physi
 
 Here are some selected publications. For a full list, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=q2IPL-QAAAAJ&hl=en).
 
-## Selected Conference Publications
+**Selected Conference Publications**
 
 1. **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al., "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels", in *Proc. ACM SenSys 2026*, Saint-Malo, France, May 2026. (Acceptance rate: 52/263 = 19.8%)
 
@@ -33,7 +33,7 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 ---
 <h2 id="teaching">Teaching</h2>
 
-- Teaching Assistant, Computer Security, WPI
+- Teaching Assistant, Responsible Artificial Intelligence, Fall 2024
 
 ---
 
