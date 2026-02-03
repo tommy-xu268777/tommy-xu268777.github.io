@@ -9,47 +9,113 @@
  */
 
 @import
-    "vendor/breakpoint/breakpoint",
+  "vendor/breakpoint/breakpoint",
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+  "themes",
+  "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+  "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-    "include/mixins",
-    "vendor/susy/susy",
+  "include/mixins",
+  "vendor/susy/susy",
 
-    "layout/reset",
-    "layout/base",
+  "layout/reset",
+  "layout/base",
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+  "include/utilities",
+  "layout/tables",
+  "layout/buttons",
+  "layout/notices",
+  "layout/masthead",
+  "layout/navigation",
+  "layout/footer",
+  "syntax",
 
-    "layout/forms",
+  "layout/forms",
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+  "layout/page",
+  "layout/archive",
+  "layout/sidebar",
+  "layout/json_cv",
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
+  "vendor/font-awesome/fontawesome",
+  "vendor/font-awesome/solid",
+  "vendor/font-awesome/brands"
 ;
 
-.page__inner-wrap {
-  margin-left: 4em;
+/* =========================
+   Layout + Typography Tuning
+   ========================= */
+
+/* 1) Make the overall page a bit wider (faculty-style) */
+.page {
+  max-width: 1200px;
 }
 
-.author-profile {
-  margin-right: 4em;
+/* 2) Increase the gap between sidebar and main content (desktop) */
+.page__inner-wrap {
+  gap: 3rem; /* clean spacing between sidebar and content */
 }
-/* Increase spacing between name and location in sidebar */
+
+/* Fallback spacing (some layouts may not fully respect gap) */
+.author-profile {
+  margin-right: 2.5rem;
+}
+
+/* 3) Name spacing: noticeable but not excessive */
 .author-profile .author__name {
-  margin-bottom: 1.5em;
+  margin-bottom: 2.2em; /* ~2 lines visual spacing */
+}
+
+/* 4) Slightly smaller, more "academic" body text */
+.page__content {
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+/* Optional: make lists a touch tighter (publications read nicer) */
+.page__content ul,
+.page__content ol {
+  line-height: 1.6;
+}
+
+/* 5) Improve anchor navigation experience (/#publications etc.) */
+html {
+  scroll-behavior: smooth;
+}
+
+:target {
+  scroll-margin-top: 90px; /* avoid heading hidden under top nav */
+}
+
+/* =========================
+   Responsive adjustments
+   ========================= */
+
+@media (max-width: 1024px) {
+  .page {
+    max-width: 1020px;
+  }
+
+  .page__inner-wrap {
+    gap: 2rem;
+  }
+
+  .author-profile {
+    margin-right: 1.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  /* mobile: slightly larger for readability */
+  .page__content {
+    font-size: 0.98rem;
+  }
+
+  .page__inner-wrap {
+    gap: 1.25rem;
+  }
+
+  .author-profile .author__name {
+    margin-bottom: 1.2em;
+  }
 }
