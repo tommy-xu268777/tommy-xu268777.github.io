@@ -13,6 +13,14 @@ My research focuses on **Trustworthy Artificial Intelligence** and **Cyber-Physi
 
 ---
 
+<h2 id="Education">📚 Education</h2>
+
+- *Expected 2029*, Ph.D. in Computer Science, Worcester Polytechnic Institute, Worcester, Massachusetts, USA.
+
+- *2020 - 2024*, B.Eng in Communication Engineering, Nanjing University, Nanjing, Jiangsu, China.
+
+---
+
 <h2 id="publications">📄 Publications</h2>
 
 Here are some selected publications. For a full list, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=q2IPL-QAAAAJ&hl=en).
