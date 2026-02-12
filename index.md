@@ -53,3 +53,7 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 <h2 id="cv">CV</h2>
 
 [Download CV](files/cv.pdf)
+
+<h2 id="visitors">Visitors</h2>
+
+{% include clustrmaps.html %}
