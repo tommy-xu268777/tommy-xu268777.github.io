@@ -31,11 +31,11 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 
 [<span style="color: #d32f2f; font-weight: bold;">S&P '26 Under Review</span>] Zhihao Zhang, Chao Wang, **Haowen Xu**, Keaton Mangone, Lily Bromberger, April Zingher, Ella Dunne, Xiaoyan Sun, Jun Dai. "Behave As You Serve: Lightweight Flow Anomaly Detection Guided by Server-side Routine Behaviors Clustering"
 
-[<span style="color: #d32f2f; font-weight: bold;">SenSys '26</span>] **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al., "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels", Saint-Malo, France, May 2026. (Acceptance rate: 52/263 = 19.8%)
+[<span style="color: #d32f2f; font-weight: bold;">SenSys '26</span>] **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al., "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels", Saint-Malo, France, May 2026. (Acceptance rate: 52/263 = 19.8%) 
 
-[<span style="color: #d32f2f; font-weight: bold;">MILCOM '25</span>] Junye Jiang, Jingcheng Ju, **Haowen Xu**, Zhenlu Tan, Duohe Ma, Jun Dai, Xiaoyan Sun, "VibLeak: Towards Practical Covert Data Leakage via Phone Vibrations", IEEE Military Communications Conference (MILCOM), October 2025, pp. 999-1004.
+[<span style="color: #d32f2f; font-weight: bold;">MILCOM '25</span>] Junye Jiang, Jingcheng Ju, **Haowen Xu**, Zhenlu Tan, Duohe Ma, Jun Dai, Xiaoyan Sun, "VibLeak: Towards Practical Covert Data Leakage via Phone Vibrations", IEEE Military Communications Conference (MILCOM), October 2025, pp. 999-1004. [Paper](files/VibLeak.pdf)
 
-[<span style="color: #d32f2f; font-weight: bold;">ICICS '25</span>] **Haowen Xu**, Tianya Zhao, et al., "MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals", Nanjing, China, October 2025. (Acceptance rate: 39/139 = 28%)
+[<span style="color: #d32f2f; font-weight: bold;">ICICS '25</span>] **Haowen Xu**, Tianya Zhao, et al., "MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals", Nanjing, China, October 2025. (Acceptance rate: 39/139 = 28%) [Paper](files/MagWatch.pdf)
 
 
 <!-- <h2 id="talks">Talks</h2>
