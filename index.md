@@ -25,9 +25,9 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 
 **Selected Conference Publications**
 
-[<span style="color: #d32f2f; font-weight: bold;">ICML '26 Under Submission</span>] **Haowen Xu**, Xue Tan, Lei Ma, Zhihao Zhang, Chao Wang, Qingze Wang, Ping Chen, Jun Dai, Xiaoyan Sun. "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems"
+[<span style="color: #d32f2f; font-weight: bold;">ICML '26 Under Review</span>] **Haowen Xu**, Xue Tan, Lei Ma, Zhihao Zhang, Chao Wang, Qingze Wang, Ping Chen, Jun Dai, Xiaoyan Sun. "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems"
 
-[<span style="color: #d32f2f; font-weight: bold;">ICML '26 Under Submission</span>] Chao Wang, Zhihao Zhang, **Haowen Xu**, Qingze Wang, Zhihao Hao, Xiaoyan Sun, Jun Dai. "CryptoSwin: Windowed Block-Diagonal Attention for FHE Vision Transformers"
+[<span style="color: #d32f2f; font-weight: bold;">ICML '26 Under Review</span>] Chao Wang, Zhihao Zhang, **Haowen Xu**, Qingze Wang, Zhihao Hao, Xiaoyan Sun, Jun Dai. "CryptoSwin: Windowed Block-Diagonal Attention for FHE Vision Transformers"
 
 [<span style="color: #d32f2f; font-weight: bold;">S&P '26 Under Review</span>] Zhihao Zhang, Chao Wang, **Haowen Xu**, Keaton Mangone, Lily Bromberger, April Zingher, Ella Dunne, Xiaoyan Sun, Jun Dai. "Behave As You Serve: Lightweight Flow Anomaly Detection Guided by Server-side Routine Behaviors Clustering"
 
