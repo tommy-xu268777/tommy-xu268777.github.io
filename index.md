@@ -19,6 +19,13 @@ My research focuses on **Trustworthy Artificial Intelligence** and **Cyber-Physi
 - *2020 - 2024*, B.Eng in Communication Engineering, Nanjing University, Nanjing, Jiangsu, China.
 
 
+<h2 id="News">📣 News</h2>
+
+- **03/20/2026 Talk** Our work *EMPalm* has been accepted for a talk at **New England Security Day (NESD)**.
+
+- **01/29/2026 Paper** Our work *EMPalm* has been accepted for publication at **ACM SenSys 2026** (Acceptance rate: 52/263 = 19.8%).
+
+
 <h2 id="publications">📄 Publications</h2>
 
 Here are some selected publications. For a full list, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=q2IPL-QAAAAJ&hl=en).
@@ -48,6 +55,18 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 
 - Teaching Assistant, Responsible Artificial Intelligence, Fall 2024
 
+
+<h2 id="services">Services</h2>
+
+- **Reviewer**, IEEE Transactions on Mobile Computing (TMC 2026)
+- **Reviewer**, SVCC 2026
+- **Reviewer**, IEEE IPCCC (2025, 2024)
+- **Reviewer**, SECRYPT 2025
+- **Reviewer**, ACM CCS 2024 (Poster Track)
+
+- **Research Contributor**, [NSF NAIRR CARE-AI (Advancing AI Research with NAIRR)](https://nairrpilot.org/projects/expansion/fa1-ad)
+- **Research Contributor**, [INFER Lab, Worcester Polytechnic Institute](https://wp.wpi.edu/infer/contact/)
+- **Research Contributor**, [DRIFT Cybersecurity Initiative, Worcester Polytechnic Institute](https://www.wpi.edu/academics/departments/cybersecurity/drift)
 
 
 <h2 id="cv">CV</h2>
