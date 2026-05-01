@@ -21,6 +21,8 @@ My research focuses on **Trustworthy Artificial Intelligence** and **Cyber-Physi
 
 <h2 id="News">📣 News</h2>
 
+- **04/30/2026 Talk** Our paper *AcMAS* has been accepted for publication at **ICML 2026** (Acceptance rate: 6352/23918 = 26.6%).
+
 - **03/20/2026 Talk** Our work *EMPalm* has been accepted for a talk at **New England Security Day (NESD)**.
 
 - **01/29/2026 Paper** Our work *EMPalm* has been accepted for publication at **ACM SenSys 2026** (Acceptance rate: 52/263 = 19.8%).
@@ -32,9 +34,9 @@ Here are some selected publications. For a full list, please visit my [Google Sc
 
 **Selected Conference Publications**
 
-<!-- [<span style="color: #d32f2f; font-weight: bold;">ICML '26 Under Review</span>] **Haowen Xu**, Xue Tan, Lei Ma, Zhihao Zhang, Chao Wang, Qingze Wang, Ping Chen, Jun Dai, Xiaoyan Sun. "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems"
+[<span style="color: #d32f2f; font-weight: bold;">ICML '26 </span>] **Haowen Xu**, Xue Tan, Lei Ma, Zhihao Zhang, Chao Wang, Qingze Wang, Ping Chen, Jun Dai, Xiaoyan Sun. "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems" (Acceptance rate: 6352/23918 = 26.6%)
 
-[<span style="color: #d32f2f; font-weight: bold;">ICML '26 Under Review</span>] Chao Wang, Zhihao Zhang, **Haowen Xu**, Qingze Wang, Zhihao Hao, Xiaoyan Sun, Jun Dai. "CryptoSwin: Windowed Block-Diagonal Attention for FHE Vision Transformers"
+<!-- [<span style="color: #d32f2f; font-weight: bold;">ICML '26 Under Review</span>] Chao Wang, Zhihao Zhang, **Haowen Xu**, Qingze Wang, Zhihao Hao, Xiaoyan Sun, Jun Dai. "CryptoSwin: Windowed Block-Diagonal Attention for FHE Vision Transformers"
 
 [<span style="color: #d32f2f; font-weight: bold;">S&P '26 Under Review</span>] Zhihao Zhang, Chao Wang, **Haowen Xu**, Keaton Mangone, Lily Bromberger, April Zingher, Ella Dunne, Xiaoyan Sun, Jun Dai. "Behave As You Serve: Lightweight Flow Anomaly Detection Guided by Server-side Routine Behaviors Clustering" -->
 
