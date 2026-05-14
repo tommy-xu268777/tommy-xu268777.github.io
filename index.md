@@ -1,11 +1,23 @@
 ---
 layout: single
 permalink: /
-author_profile: true
+author_profile: false
 show_title: false
+classes: wide
 ---
 
-<div id="bio"></div>
+<div class="hero-card">
+  <img src="{{ '/images/profile.png' | relative_url }}" alt="Haowen Xu" class="hero-photo">
+  <div class="hero-info">
+    <h1 class="hero-name">Haowen Xu</h1>
+    <p class="hero-title">Ph.D. Student, Computer Science, Worcester Polytechnic Institute</p>
+    <div class="hero-pills">
+      <a href="https://scholar.google.com/citations?user=q2IPL-QAAAAJ&hl=en" target="_blank" rel="noopener" class="hero-pill">Google Scholar</a>
+      <a href="mailto:hxu4@wpi.edu" class="hero-pill">Email</a>
+      <a href="https://www.linkedin.com/in/haowen-xu-ba73ab322/" target="_blank" rel="noopener" class="hero-pill">LinkedIn</a>
+    </div>
+  </div>
+</div>
 
 I am **Haowen Xu**, currently a second-year Ph.D. student at Worcester Polytechnic Institute (WPI), where I am fortunate to be advised by [Prof. Xiaoyan Sun](https://www.wpi.edu/people/faculty/xsun7) and co-advised by [Prof. Jun Dai](https://www.wpi.edu/people/faculty/jdai). Prior to joining WPI, I earned my B.S. degree from Nanjing University in 2024.
 
@@ -27,13 +39,6 @@ My research focuses on **Trustworthy Artificial Intelligence** and **Cyber-Physi
 </div>
 
 
-<h2 id="Education">📚 Education</h2>
-
-- <span style="color:#555;">**Expected 2029**</span> &nbsp;·&nbsp; **Ph.D. in Computer Science**, Worcester Polytechnic Institute, Worcester, MA, USA.
-
-- <span style="color:#555;">**2020 – 2024**</span> &nbsp;·&nbsp; **B.Eng in Communication Engineering**, Nanjing University, Nanjing, Jiangsu, China.
-
-
 <h2 id="News">📣 News</h2>
 
 - <span style="display:inline-block; padding:1px 8px; margin-right:6px; border-radius:10px; background:#d32f2f; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.4px;">NEW</span> **04/30/2026** — Our paper *AcMAS* has been **accepted at ICML 2026** 🎉 &nbsp;<span style="color:#777;">(Acceptance rate: 6352/23918 = 26.6%)</span>
@@ -43,69 +48,14 @@ My research focuses on **Trustworthy Artificial Intelligence** and **Cyber-Physi
 - **01/29/2026** — Our work *EMPalm* has been **accepted at ACM SenSys 2026** 🎉 &nbsp;<span style="color:#777;">(Acceptance rate: 52/263 = 19.8%)</span>
 
 
-<h2 id="publications">📄 Publications</h2>
+<h2 id="Education">📚 Education</h2>
 
-Here are some selected publications. For a full list, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=q2IPL-QAAAAJ&hl=en). <span style="color:#888;">(<sup>★</sup> denotes corresponding author)</span>
+- <span style="color:#555;">**Expected 2029**</span> &nbsp;·&nbsp; **Ph.D. in Computer Science**, Worcester Polytechnic Institute, Worcester, MA, USA.
 
-**Selected Conference Publications**
+- <span style="color:#555;">**2020 – 2024**</span> &nbsp;·&nbsp; **B.Eng in Communication Engineering**, Nanjing University, Nanjing, Jiangsu, China.
 
-<div markdown="1" style="border-left: 4px solid #d32f2f; background: #fff8f8; padding: 14px 20px 6px; border-radius: 0 8px 8px 0; margin: 1em 0;">
 
-<div style="font-weight:700; color:#b3261e; margin-bottom:0.7em; font-size:0.95rem; letter-spacing:0.3px;">🧠 Trustworthy AI</div>
-
-<span style="display:inline-block; padding:2px 10px; margin-right:8px; border-radius:6px; background:linear-gradient(135deg,#d32f2f,#b71c1c); color:#fff; font-size:0.78rem; font-weight:700; letter-spacing:0.3px;">ICML '26</span> **Haowen Xu**, Xue Tan, Lei Ma, Zhihao Zhang, Chao Wang, Qingze Wang, Ping Chen, Jun Dai, Xiaoyan Sun. *"When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems"* <span style="color:#777;">(Acceptance rate: 26.6%)</span>
-
-<!-- [ICML '26 Under Review] Chao Wang, Zhihao Zhang, Haowen Xu, Qingze Wang, Zhihao Hao, Xiaoyan Sun, Jun Dai. "CryptoSwin: Windowed Block-Diagonal Attention for FHE Vision Transformers" -->
-
+<div style="margin-top: 3.5em; display: flex; flex-direction: column; align-items: center;">
+  <div style="font-size: 0.85rem; color: #888; margin-bottom: 8px;">🌐 Visitors</div>
+  {% include clustrmaps.html %}
 </div>
-
-<div markdown="1" style="border-left: 4px solid #1565c0; background: #f5faff; padding: 14px 20px 6px; border-radius: 0 8px 8px 0; margin: 1em 0;">
-
-<div style="font-weight:700; color:#0d47a1; margin-bottom:0.7em; font-size:0.95rem; letter-spacing:0.3px;">🔐 CPS Security</div>
-
-<span style="display:inline-block; padding:2px 10px; margin-right:8px; border-radius:6px; background:linear-gradient(135deg,#1565c0,#0d47a1); color:#fff; font-size:0.78rem; font-weight:700; letter-spacing:0.3px;">SenSys '26</span> **Haowen Xu**, Tianya Zhao, Xuyu Wang, et al. *"EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels"*, Saint-Malo, France, May 2026. <span style="color:#777;">(Acceptance rate: 19.8%)</span>
-
-<span style="display:inline-block; padding:2px 10px; margin-right:8px; border-radius:6px; background:linear-gradient(135deg,#1565c0,#0d47a1); color:#fff; font-size:0.78rem; font-weight:700; letter-spacing:0.3px;">MILCOM '25</span> Junye Jiang, Jingcheng Ju, **Haowen Xu**, Zhenlu Tan, Duohe Ma, Jun Dai, Xiaoyan Sun. *"VibLeak: Towards Practical Covert Data Leakage via Phone Vibrations"*, IEEE Military Communications Conference (MILCOM), Oct. 2025, pp. 999–1004. &nbsp;[[PDF]](files/VibLeak.pdf)
-
-<span style="display:inline-block; padding:2px 10px; margin-right:8px; border-radius:6px; background:linear-gradient(135deg,#1565c0,#0d47a1); color:#fff; font-size:0.78rem; font-weight:700; letter-spacing:0.3px;">ICICS '25</span> **Haowen Xu**, Tianya Zhao, et al. *"MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals"*, Nanjing, China, Oct. 2025. <span style="color:#777;">(Acceptance rate: 28%)</span> &nbsp;[[PDF]](files/MagWatch.pdf)
-
-<!-- [S&P '26 Under Review] Zhihao Zhang, Chao Wang, Haowen Xu, Keaton Mangone, Lily Bromberger, April Zingher, Ella Dunne, Xiaoyan Sun, Jun Dai. "Behave As You Serve: Lightweight Flow Anomaly Detection Guided by Server-side Routine Behaviors Clustering" -->
-
-</div>
-
-
-<!-- <h2 id="talks">Talks</h2>
-
-- EMPalm, ACM SenSys 2025  
-- MagWatch, ICICS 2025 -->
-
-
-<h2 id="teaching">🧑‍🏫 Teaching</h2>
-
-- **Teaching Assistant** &nbsp;·&nbsp; *Responsible Artificial Intelligence* &nbsp;·&nbsp; <span style="color:#555;">Fall 2024</span>
-
-
-<h2 id="services">🤝 Services</h2>
-
-**Reviewer**
-
-- IEEE Transactions on Mobile Computing &nbsp;<span style="color:#888;">(TMC 2026)</span>
-- SVCC 2026
-- IEEE IPCCC &nbsp;<span style="color:#888;">(2025, 2024)</span>
-- SECRYPT 2025
-- ACM CCS 2024 &nbsp;<span style="color:#888;">(Poster Track)</span>
-
-**Research Contributor**
-
-- [NSF NAIRR CARE-AI — Advancing AI Research with NAIRR](https://nairrpilot.org/projects/expansion/fa1-ad)
-- [INFER Lab, Worcester Polytechnic Institute](https://wp.wpi.edu/infer/contact/)
-- [DRIFT Cybersecurity Initiative, Worcester Polytechnic Institute](https://www.wpi.edu/academics/departments/cybersecurity/drift)
-
-
-<h2 id="cv">📋 CV</h2>
-
-<p>
-  <a href="files/cv.pdf" style="display:inline-block; padding:8px 18px; border-radius:8px; background:linear-gradient(135deg,#d32f2f,#b71c1c); color:#fff !important; font-weight:600; text-decoration:none; box-shadow:0 2px 6px rgba(211,47,47,0.25);">
-    ⬇ &nbsp;Download CV (PDF)
-  </a>
-</p>

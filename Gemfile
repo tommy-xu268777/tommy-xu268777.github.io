@@ -11,3 +11,11 @@ end
 
 gem 'github-pages'
 gem 'connection_pool', '2.5.0'
+
+# Stdlib gems extracted in Ruby 3.4+; Jekyll 3.9 still requires them.
+gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+gem 'logger'
+gem 'mutex_m'
+gem 'ostruct'

@@ -147,3 +147,96 @@ html {
     margin-top: 1.4em;
   }
 }
+
+/* ===== Hero card on homepage ===== */
+.hero-card {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+  padding: 28px 32px;
+  margin: 0 0 1.8em;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f7fbff 0%, #fff5f5 100%);
+  box-shadow: 0 4px 18px rgba(20, 40, 80, 0.06);
+}
+
+.hero-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  object-fit: cover;
+  flex-shrink: 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.hero-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.hero-name {
+  font-size: 1.7rem;
+  font-weight: 800;
+  color: #1a2a44;
+  margin: 0 0 0.25em;
+  line-height: 1.15;
+  border-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.hero-name-cn {
+  font-weight: 700;
+  color: #1a2a44;
+}
+
+.hero-title {
+  font-size: 0.92rem;
+  color: #4a5a78;
+  font-weight: 600;
+  margin: 0 0 0.9em;
+}
+
+.hero-pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hero-pill {
+  display: inline-block;
+  padding: 5px 14px;
+  border-radius: 20px;
+  background: rgba(255, 255, 255, 0.85);
+  color: #1a2a44 !important;
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: none !important;
+  border: 1px solid #d6e1f2;
+  transition: all 0.18s ease;
+}
+
+.hero-pill:hover {
+  background: #1a2a44;
+  color: #fff !important;
+  border-color: #1a2a44;
+  transform: translateY(-1px);
+}
+
+@media (max-width: 700px) {
+  .hero-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px 20px;
+    gap: 18px;
+  }
+  .hero-photo {
+    width: 130px;
+    height: 130px;
+  }
+  .hero-name {
+    font-size: 1.45rem;
+  }
+  .hero-pills {
+    justify-content: center;
+  }
+}
