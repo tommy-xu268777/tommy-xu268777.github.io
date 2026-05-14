@@ -128,3 +128,22 @@ html {
   padding: 0 !important;
   margin: 0 !important;
 }
+
+/* ===== Larger spacing between top-level sections ===== */
+.page__content h2 {
+  margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.page__content h2:first-of-type {
+  margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+  .page__content h2 {
+    margin-top: 2.2em;
+  }
+  .page__content h2:first-of-type {
+    margin-top: 1.4em;
+  }
+}
