@@ -6,7 +6,7 @@ author_profile: true
 show_title: false
 ---
 
-<h2 id="services" style="margin-top:0;">🤝 Services</h2>
+<h2 id="services" style="margin-top:0;">Services</h2>
 
 **Reviewer**
 
