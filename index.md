@@ -1,61 +1,85 @@
 ---
 layout: single
 permalink: /
+title: "Haowen Xu"
 author_profile: false
 show_title: false
 classes: wide
 ---
 
-<div class="hero-card">
-  <img src="{{ '/images/profile.png' | relative_url }}" alt="Haowen Xu" class="hero-photo">
-  <div class="hero-info">
-    <h1 class="hero-name">Haowen Xu</h1>
-    <p class="hero-title">Ph.D. Student, Computer Science, Worcester Polytechnic Institute</p>
-    <div class="hero-pills">
-      <a href="https://scholar.google.com/citations?user=q2IPL-QAAAAJ&hl=en" target="_blank" rel="noopener" class="hero-pill">Google Scholar</a>
-      <a href="mailto:hxu4@wpi.edu" class="hero-pill">Email</a>
-      <a href="https://www.linkedin.com/in/haowen-xu-ba73ab322/" target="_blank" rel="noopener" class="hero-pill">LinkedIn</a>
+<header class="academic-header">
+  <img src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Haowen Xu" class="academic-photo">
+  <div class="academic-intro">
+    <h1>Haowen Xu</h1>
+    <p class="academic-role">Ph.D. Student in Computer Science</p>
+    <p class="academic-affiliation">Worcester Polytechnic Institute</p>
+    <nav class="academic-links" aria-label="Academic profiles and contact information">
+      <a href="https://scholar.google.com/citations?user=q2IPL-QAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
+      <a href="https://orcid.org/0009-0008-6420-5562" target="_blank" rel="noopener">ORCID</a>
+      <a href="mailto:hxu4@wpi.edu">Email</a>
+      <a href="https://www.linkedin.com/in/haowen-xu-ba73ab322/" target="_blank" rel="noopener">LinkedIn</a>
+    </nav>
+  </div>
+</header>
+
+I am a Ph.D. student in Computer Science at Worcester Polytechnic Institute (WPI), advised by [Prof. Xiaoyan Sun](https://www.wpi.edu/people/faculty/xsun7) and co-advised by [Prof. Jun Dai](https://www.wpi.edu/people/faculty/jdai). I received my B.Eng. in Communication Engineering from Nanjing University in 2024.
+
+My research lies at the intersection of **trustworthy artificial intelligence** and **cyber-physical systems security**. I develop methods for understanding, detecting, and mitigating security risks in AI agents and connected physical systems, with an emphasis on robust and deployable defenses.
+
+## Research Interests
+
+<div class="research-grid">
+  <section>
+    <h3>Trustworthy AI</h3>
+    <p>LLM agent safety, multi-agent systems, behavior-based threat detection, and machine learning robustness.</p>
+  </section>
+  <section>
+    <h3>Cyber-Physical Systems Security</h3>
+    <p>Side-channel attacks, electromagnetic leakage, and privacy risks in wearable and IoT systems.</p>
+  </section>
+</div>
+
+<div class="section-heading-row">
+  <h2 id="news">Recent News</h2>
+  <a href="{{ '/news/' | relative_url }}">All news</a>
+</div>
+
+<ul class="news-list">
+  <li><time datetime="2026-06-08">Jun 8, 2026</time><span>Joined <strong>ByteDance Security</strong> to work on AI security.</span></li>
+  <li><time datetime="2026-04-30">Apr 30, 2026</time><span>Our paper <em>AcMAS</em> was accepted at <strong>ICML 2026</strong>.</span></li>
+  <li><time datetime="2026-03-20">Mar 20, 2026</time><span>Our work <em>EMPalm</em> was selected for a talk at New England Security Day.</span></li>
+  <li><time datetime="2026-01-29">Jan 29, 2026</time><span>Our paper <em>EMPalm</em> was accepted at <strong>ACM SenSys 2026</strong>.</span></li>
+</ul>
+
+## Experience
+{: #experience }
+
+<div class="timeline-list">
+  <article class="timeline-item">
+    <div class="timeline-date">Jun 2026 – Present</div>
+    <div class="timeline-content">
+      <h3>AI Security Research</h3>
+      <p class="timeline-organization">ByteDance Security</p>
+      <p>I develop a behavior-level security pipeline for LLM agents that combines tool-use and contextual analysis with policy-based risk detection. I also work on low-latency prefiltering and evaluation to improve threat coverage while reducing false positives in production-scale deployments.</p>
     </div>
-  </div>
+  </article>
 </div>
 
-I am **Haowen Xu**, currently a second-year Ph.D. student at Worcester Polytechnic Institute (WPI), where I am fortunate to be advised by [Prof. Xiaoyan Sun](https://www.wpi.edu/people/faculty/xsun7) and co-advised by [Prof. Jun Dai](https://www.wpi.edu/people/faculty/jdai). Prior to joining WPI, I earned my B.S. degree from Nanjing University in 2024.
+## Education
 
-My research focuses on **Trustworthy Artificial Intelligence** and **Cyber-Physical System Security**. I am passionate about building AI systems that are not only intelligent but also reliable, secure, and deployable in safety-critical applications. My work explores the challenges at the intersection of machine learning robustness and the security of interconnected physical systems.
-
-<div style="margin-top:1.2em;">
-  <div style="margin-bottom:0.9em;">
-    <div style="font-weight:700; color:#b3261e; font-size:0.95rem; margin-bottom:6px;">Trustworthy AI</div>
-    <span style="display:inline-block; padding:4px 12px; margin:3px 4px 3px 0; border-radius:14px; background:linear-gradient(135deg,#fde7e9,#fcd0d4); color:#b3261e; font-size:0.82rem; font-weight:600;">LLM Agent Safety</span>
-    <span style="display:inline-block; padding:4px 12px; margin:3px 4px 3px 0; border-radius:14px; background:linear-gradient(135deg,#fde7e9,#fcd0d4); color:#b3261e; font-size:0.82rem; font-weight:600;">Multi-Agent Systems</span>
-    <span style="display:inline-block; padding:4px 12px; margin:3px 4px 3px 0; border-radius:14px; background:linear-gradient(135deg,#fde7e9,#fcd0d4); color:#b3261e; font-size:0.82rem; font-weight:600;">ML Robustness</span>
-  </div>
-  <div>
-    <div style="font-weight:700; color:#0d47a1; font-size:0.95rem; margin-bottom:6px;">CPS Security</div>
-    <span style="display:inline-block; padding:4px 12px; margin:3px 4px 3px 0; border-radius:14px; background:linear-gradient(135deg,#e3f2fd,#bbdefb); color:#0d47a1; font-size:0.82rem; font-weight:600;">Side-Channel Attacks</span>
-    <span style="display:inline-block; padding:4px 12px; margin:3px 4px 3px 0; border-radius:14px; background:linear-gradient(135deg,#e3f2fd,#bbdefb); color:#0d47a1; font-size:0.82rem; font-weight:600;">Electromagnetic Leakage</span>
-    <span style="display:inline-block; padding:4px 12px; margin:3px 4px 3px 0; border-radius:14px; background:linear-gradient(135deg,#e3f2fd,#bbdefb); color:#0d47a1; font-size:0.82rem; font-weight:600;">Wearable / IoT Privacy</span>
-  </div>
-</div>
-
-
-<h2 id="News">News</h2>
-
-- <span style="display:inline-block; padding:1px 8px; margin-right:6px; border-radius:10px; background:#d32f2f; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.4px;">NEW</span> **04/30/2026** — Our paper *AcMAS* has been **accepted at ICML 2026** 🎉 &nbsp;<span style="color:#777;">(Acceptance rate: 6352/23918 = 26.6%)</span>
-
-- <span style="display:inline-block; padding:1px 8px; margin-right:6px; border-radius:10px; background:#d32f2f; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.4px;">NEW</span> **03/20/2026** — Our work *EMPalm* has been **accepted for a talk at New England Security Day (NESD)** 🎤
-
-- **01/29/2026** — Our work *EMPalm* has been **accepted at ACM SenSys 2026** 🎉 &nbsp;<span style="color:#777;">(Acceptance rate: 52/263 = 19.8%)</span>
-
-
-<h2 id="Education">Education</h2>
-
-- <span style="color:#555;">**Expected 2029**</span> &nbsp;·&nbsp; **Ph.D. in Computer Science**, Worcester Polytechnic Institute, Worcester, MA, USA.
-
-- <span style="color:#555;">**2020 – 2024**</span> &nbsp;·&nbsp; **B.Eng in Communication Engineering**, Nanjing University, Nanjing, Jiangsu, China.
-
-
-<div style="margin-top: 3.5em; display: flex; flex-direction: column; align-items: center;">
-  <div style="font-size: 0.85rem; color: #888; margin-bottom: 8px;">Visitors</div>
-  {% include clustrmaps.html %}
+<div class="timeline-list">
+  <article class="timeline-item">
+    <div class="timeline-date">2024 – 2029 (expected)</div>
+    <div class="timeline-content">
+      <h3>Ph.D. in Computer Science</h3>
+      <p class="timeline-organization">Worcester Polytechnic Institute, Worcester, MA, USA</p>
+    </div>
+  </article>
+  <article class="timeline-item">
+    <div class="timeline-date">2020 – 2024</div>
+    <div class="timeline-content">
+      <h3>B.Eng. in Communication Engineering</h3>
+      <p class="timeline-organization">Nanjing University, Nanjing, China</p>
+    </div>
+  </article>
 </div>

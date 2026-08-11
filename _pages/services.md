@@ -1,23 +1,27 @@
 ---
 layout: single
-title: "Services"
+title: "Service"
 permalink: /services/
 author_profile: true
 show_title: false
 ---
 
-<h2 id="services" style="margin-top:0;">Services</h2>
+<h1 class="academic-page-title">Academic Service</h1>
 
-**Reviewer**
+## Reviewing
 
-- IEEE Transactions on Mobile Computing &nbsp;<span style="color:#888;">(TMC 2026)</span>
-- SVCC 2026
-- IEEE IPCCC &nbsp;<span style="color:#888;">(2025, 2024)</span>
-- SECRYPT 2025
-- ACM CCS 2024 &nbsp;<span style="color:#888;">(Poster Track)</span>
+<ul class="compact-list">
+  <li><strong>IEEE Transactions on Mobile Computing</strong>, 2026</li>
+  <li><strong>SVCC</strong>, 2026</li>
+  <li><strong>IEEE IPCCC</strong>, 2024 and 2025</li>
+  <li><strong>SECRYPT</strong>, 2025</li>
+  <li><strong>ACM CCS</strong>, Poster Track, 2024</li>
+</ul>
 
-**Research Contributor**
+## Research Programs and Initiatives
 
-- [NSF NAIRR CARE-AI — Advancing AI Research with NAIRR](https://nairrpilot.org/projects/expansion/fa1-ad)
-- [INFER Lab, Worcester Polytechnic Institute](https://wp.wpi.edu/infer/contact/)
-- [DRIFT Cybersecurity Initiative, Worcester Polytechnic Institute](https://www.wpi.edu/academics/departments/cybersecurity/drift)
+<ul class="compact-list">
+  <li>[NSF NAIRR CARE-AI — Advancing AI Research with NAIRR](https://nairrpilot.org/projects/expansion/fa1-ad)</li>
+  <li>[INFER Lab, Worcester Polytechnic Institute](https://wp.wpi.edu/infer/contact/)</li>
+  <li>[DRIFT Cybersecurity Initiative, Worcester Polytechnic Institute](https://www.wpi.edu/academics/departments/cybersecurity/drift)</li>
+</ul>

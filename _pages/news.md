@@ -6,10 +6,11 @@ author_profile: true
 show_title: false
 ---
 
-<h2 id="News" style="margin-top:0;">News</h2>
+<h1 class="academic-page-title">News</h1>
 
-- <span style="display:inline-block; padding:1px 8px; margin-right:6px; border-radius:10px; background:#d32f2f; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.4px;">NEW</span> **04/30/2026** — Our paper *AcMAS* has been **accepted at ICML 2026** 🎉 &nbsp;<span style="color:#777;">(Acceptance rate: 6352/23918 = 26.6%)</span>
-
-- <span style="display:inline-block; padding:1px 8px; margin-right:6px; border-radius:10px; background:#d32f2f; color:#fff; font-size:0.7rem; font-weight:700; letter-spacing:0.4px;">NEW</span> **03/20/2026** — Our work *EMPalm* has been **accepted for a talk at New England Security Day (NESD)** 🎤
-
-- **01/29/2026** — Our work *EMPalm* has been **accepted at ACM SenSys 2026** 🎉 &nbsp;<span style="color:#777;">(Acceptance rate: 52/263 = 19.8%)</span>
+<ul class="news-list news-list--full">
+  <li><time datetime="2026-06-08">Jun 8, 2026</time><span>Joined <strong>ByteDance Security</strong> to work on AI security, with a focus on deployable safeguards for LLM-based agents.</span></li>
+  <li><time datetime="2026-04-30">Apr 30, 2026</time><span>Our paper <em>When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems</em> was accepted at <strong>ICML 2026</strong>.</span></li>
+  <li><time datetime="2026-03-20">Mar 20, 2026</time><span>Our work <em>EMPalm</em> was selected for a talk at New England Security Day.</span></li>
+  <li><time datetime="2026-01-29">Jan 29, 2026</time><span>Our paper <em>EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels</em> was accepted at <strong>ACM SenSys 2026</strong>.</span></li>
+</ul>

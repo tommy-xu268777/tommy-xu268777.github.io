@@ -9,15 +9,15 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Homepage"
+title                    : "Haowen Xu"
 title_separator          : "-"
 name                     : &name "Haowen Xu"
 # google_analytics_id      : G-69FTPLVYXL
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Haowen Xu — research in trustworthy AI, LLM agent safety, and cyber-physical systems security."
 url                      : https://tommy-xu268777.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "tommy-xu268777/tommy-xu268777.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -27,7 +27,7 @@ author:
   avatar           : "profile.png"
   name             : "Haowen Xu"
   pronouns         : # example: "she/her"  
-  bio              : #
+  bio              : "Ph.D. student researching trustworthy AI and cyber-physical systems security."
   location         : "Worcester, MA, USA"
   employer         : "Worcester Polytechnic Institute"
   uri              : # URL
