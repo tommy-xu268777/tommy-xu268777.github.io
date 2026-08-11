@@ -51,6 +51,45 @@ My research lies at the intersection of **trustworthy artificial intelligence** 
   <li><time datetime="2026-01-29">Jan 29, 2026</time><span>Our paper <em>EMPalm</em> was accepted at <strong>ACM SenSys 2026</strong>.</span></li>
 </ul>
 
+<div class="section-heading-row">
+  <h2 id="publications">Selected Publications</h2>
+  <a href="{{ '/publications/' | relative_url }}">All publications</a>
+</div>
+
+<div class="publication-list publication-list--compact">
+  <article class="publication-entry">
+    <div class="publication-venue">ICML 2026</div>
+    <div>
+      <h3>When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems</h3>
+      <p><strong>Haowen Xu</strong>, Xue Tan, Lei Ma, Zhihao Zhang, Chao Wang, Qingze Wang, Ping Chen, Jun Dai, and Xiaoyan Sun.</p>
+    </div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-venue">SenSys 2026</div>
+    <div>
+      <h3>EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels</h3>
+      <p><strong>Haowen Xu</strong>, Tianya Zhao, Xuyu Wang, et al.</p>
+    </div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-venue">MILCOM 2025</div>
+    <div>
+      <h3>VibLeak: Towards Practical Covert Data Leakage via Phone Vibrations</h3>
+      <p>Junye Jiang, Jingcheng Ju, <strong>Haowen Xu</strong>, Zhenlu Tan, Duohe Ma, Jun Dai, and Xiaoyan Sun. <a href="{{ '/files/VibLeak.pdf' | relative_url }}">PDF</a></p>
+    </div>
+  </article>
+
+  <article class="publication-entry">
+    <div class="publication-venue">ICICS 2025</div>
+    <div>
+      <h3>MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals</h3>
+      <p><strong>Haowen Xu</strong>, Tianya Zhao, et al. <a href="{{ '/files/MagWatch.pdf' | relative_url }}">PDF</a></p>
+    </div>
+  </article>
+</div>
+
 ## Experience
 {: #experience }
 
@@ -60,7 +99,7 @@ My research lies at the intersection of **trustworthy artificial intelligence** 
     <div class="timeline-content">
       <h3>AI Security Research</h3>
       <p class="timeline-organization">ByteDance Security</p>
-      <p>I develop a behavior-level security pipeline for LLM agents that combines tool-use and contextual analysis with policy-based risk detection. I also work on low-latency prefiltering and evaluation to improve threat coverage while reducing false positives in production-scale deployments.</p>
+      <p>Investigating behavior-level security for LLM agents, with a focus on how tool-use patterns, execution context, and policy constraints can jointly characterize malicious or unintended behavior. Designing and empirically evaluating lightweight detection and prefiltering methods to improve threat coverage, robustness, and false-positive control in production-scale agent systems.</p>
     </div>
   </article>
 </div>

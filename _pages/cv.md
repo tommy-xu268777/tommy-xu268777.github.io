@@ -42,7 +42,7 @@ Trustworthy artificial intelligence; LLM agent safety; multi-agent systems; mach
     <div class="timeline-content">
       <h3>AI Security Research</h3>
       <p class="timeline-organization">ByteDance Security</p>
-      <p>I develop a behavior-level security pipeline for LLM agents that combines tool-use and contextual analysis with policy-based risk detection. I also work on low-latency prefiltering and evaluation to improve threat coverage while reducing false positives in production-scale deployments.</p>
+      <p>Investigating behavior-level security for LLM agents, with a focus on how tool-use patterns, execution context, and policy constraints can jointly characterize malicious or unintended behavior. Designing and empirically evaluating lightweight detection and prefiltering methods to improve threat coverage, robustness, and false-positive control in production-scale agent systems.</p>
     </div>
   </article>
 </div>

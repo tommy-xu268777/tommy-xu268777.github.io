@@ -286,6 +286,26 @@ html {
   margin-bottom: 0.3rem;
 }
 
+.publication-list--compact {
+  margin-top: 1rem;
+}
+
+.publication-list--compact .publication-entry {
+  padding-bottom: 1rem;
+}
+
+.publication-list--compact .publication-entry + .publication-entry {
+  padding-top: 1rem;
+}
+
+.publication-list--compact .publication-entry h3 {
+  margin-bottom: 0.2rem;
+}
+
+.publication-list--compact .publication-entry p {
+  font-size: 0.9rem;
+}
+
 .publication-meta {
   color: var(--academic-muted);
   font-size: 0.88rem;
