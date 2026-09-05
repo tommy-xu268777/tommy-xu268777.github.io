@@ -122,6 +122,3 @@ My research lies at the intersection of **trustworthy artificial intelligence** 
     </div>
   </article>
 </div>
-
-
-{% include clustrmaps.html %}
