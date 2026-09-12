@@ -108,7 +108,7 @@ My research lies at the intersection of **trustworthy artificial intelligence** 
 
 <div class="timeline-list">
   <article class="timeline-item">
-    <div class="timeline-date">2024 – 2026</div>
+    <div class="timeline-date">2024 – Dec 2026 (expected)</div>
     <div class="timeline-content">
       <h3>M.S. in Computer Science</h3>
       <p class="timeline-organization">Worcester Polytechnic Institute, Worcester, MA, USA</p>

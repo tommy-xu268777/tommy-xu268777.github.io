@@ -18,7 +18,7 @@ Trustworthy artificial intelligence; LLM agent safety; multi-agent systems; mach
 
 <div class="timeline-list">
   <article class="timeline-item">
-    <div class="timeline-date">2024 – 2026</div>
+    <div class="timeline-date">2024 – Dec 2026 (expected)</div>
     <div class="timeline-content">
       <h3>M.S. in Computer Science</h3>
       <p class="timeline-organization">Worcester Polytechnic Institute</p>
