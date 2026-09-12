@@ -8,5 +8,24 @@
       id="mmvst_globe"
       src="https://mapmyvisitors.com/globe.js?d=9Tr2jW2MEugG7FCYRUKo046lKcG0y6sdFWVImJZrz_k">
     </script>
+    <script>
+      (function () {
+        var container = document.currentScript.parentElement;
+        // The provider inserts its link asynchronously and defaults to its homepage.
+        function updateStatsLink() {
+          var link = container.querySelector('#mmvst_a');
+          if (!link) return false;
+          link.href = 'https://mapmyvisitors.com/web/1c86u';
+          link.setAttribute('aria-label', 'View visitor statistics for this website');
+          return true;
+        }
+        if (!updateStatsLink()) {
+          var observer = new MutationObserver(function () {
+            if (updateStatsLink()) observer.disconnect();
+          });
+          observer.observe(container, { childList: true, subtree: true });
+        }
+      })();
+    </script>
   </div>
 </section>
