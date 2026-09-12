@@ -11,7 +11,7 @@ classes: wide
   <img src="{{ '/images/profile.png' | relative_url }}" alt="Portrait of Haowen Xu" class="academic-photo">
   <div class="academic-intro">
     <h1>Haowen Xu</h1>
-    <p class="academic-role">Ph.D. Student in Computer Science</p>
+    <p class="academic-role">Master's Student in Computer Science</p>
     <p class="academic-affiliation">Worcester Polytechnic Institute</p>
     <nav class="academic-links" aria-label="Academic profiles and contact information">
       <a href="https://scholar.google.com/citations?user=q2IPL-QAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>
@@ -22,7 +22,7 @@ classes: wide
   </div>
 </header>
 
-I am a Ph.D. student in Computer Science at Worcester Polytechnic Institute (WPI), advised by [Prof. Xiaoyan Sun](https://www.wpi.edu/people/faculty/xsun7) and co-advised by [Prof. Jun Dai](https://www.wpi.edu/people/faculty/jdai). I received my B.Eng. in Communication Engineering from Nanjing University in 2024.
+I am a master's student in Computer Science at Worcester Polytechnic Institute (WPI). I received my B.Eng. in Communication Engineering from Nanjing University in 2024.
 
 My research lies at the intersection of **trustworthy artificial intelligence** and **cyber-physical systems security**. I develop methods for understanding, detecting, and mitigating security risks in AI agents and connected physical systems, with an emphasis on robust and deployable defenses.
 
@@ -108,9 +108,9 @@ My research lies at the intersection of **trustworthy artificial intelligence** 
 
 <div class="timeline-list">
   <article class="timeline-item">
-    <div class="timeline-date">2024 – 2029 (expected)</div>
+    <div class="timeline-date">2024 – 2026</div>
     <div class="timeline-content">
-      <h3>Ph.D. in Computer Science</h3>
+      <h3>M.S. in Computer Science</h3>
       <p class="timeline-organization">Worcester Polytechnic Institute, Worcester, MA, USA</p>
     </div>
   </article>
