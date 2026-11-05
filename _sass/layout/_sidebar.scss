@@ -18,10 +18,13 @@
   }
 
   @media screen and (min-width: $sidebar-screen-min-width) {
-    height: 100vh;
-    overflow-y: auto;               // Add scrollbar if the sidebar is too long
+    top: $masthead-height;
+    bottom: 1em;
+    height: auto;
+    overflow-y: auto;
     position: fixed;
-    padding-top: $masthead-height;
+    // The navigation script also sets padding; the fixed top already clears it.
+    padding-top: 1em !important;
   }
 
   @include breakpoint($large) {
@@ -154,9 +157,7 @@
   }
 
   img {
-    width: 175px;
-    height: 175px;
-    object-fit: cover;
+    max-width: 175px;
     border-radius: 50%;
 
     @include breakpoint($large) {
@@ -183,7 +184,6 @@
 
 .author__name {
   margin: 0;
-  margin-bottom: 6px;
 
   @include breakpoint($large) {
     margin-top: 10px;
@@ -193,7 +193,6 @@
 .sidebar .author__name {
   font-family: $sans-serif;
   font-size: $type-size-5;
-  margin-bottom: 16px;
 }
 
 .sidebar .author__desktop {

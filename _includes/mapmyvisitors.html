@@ -1,16 +1,24 @@
 <section class="visitor-map" aria-label="Visitor map">
   <h2 class="visitor-map__title">Visitors</h2>
-  <!-- Globe size follows the width of .visitor-map__globe: globe.js reads
-       $("#mmvst_globe").parent().width() when the src carries no w parameter. -->
+  <!-- Set the provider's width explicitly so it stays small in the sidebar. -->
   <div class="visitor-map__globe">
     <script
       type="text/javascript"
       id="mmvst_globe"
-      src="https://mapmyvisitors.com/globe.js?d=9Tr2jW2MEugG7FCYRUKo046lKcG0y6sdFWVImJZrz_k">
+      src="https://mapmyvisitors.com/globe.js?d=9Tr2jW2MEugG7FCYRUKo046lKcG0y6sdFWVImJZrz_k&amp;w=160">
     </script>
     <script>
       (function () {
         var container = document.currentScript.parentElement;
+        var sidebar = container.closest('.sidebar');
+        // Recheck the provider's animation when the sidebar itself scrolls.
+        if (sidebar) {
+          sidebar.addEventListener('scroll', function () {
+            if (window.globe_jq) {
+              window.globe_jq(window).triggerHandler('scroll');
+            }
+          }, { passive: true });
+        }
         // The provider inserts its link asynchronously and defaults to its homepage.
         function updateStatsLink() {
           var link = container.querySelector('#mmvst_a');

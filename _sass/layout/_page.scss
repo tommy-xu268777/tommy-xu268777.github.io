@@ -12,7 +12,7 @@
   animation-delay: 0.35s;
 
   @include breakpoint($x-large) {
-    max-width: $x-large;
+    max-width: 1400px;
   }
 }
 
@@ -49,15 +49,16 @@
 }
 
 .page__content {
+  font-size: 16px;
+  line-height: 1.65;
 
   h2 {
-    margin-top: 0;
     padding-bottom: 0.5em;
     border-bottom: 1px solid var(--global-border-color);
   }
 
   p, li, dl {
-    font-size: 0.875em;
+    font-size: 1em;
   }
 
   /* paragraph indents */

@@ -3,14 +3,11 @@ layout: single
 title: "News"
 permalink: /news/
 author_profile: true
-show_title: false
 ---
 
-<h1 class="academic-page-title">News</h1>
-
-<ul class="news-list news-list--full">
-  <li><time datetime="2026-06-08">Jun 8, 2026</time><span>Joined <strong>ByteDance Security</strong> to work on AI security, with a focus on deployable safeguards for LLM-based agents.</span></li>
-  <li><time datetime="2026-04-30">Apr 30, 2026</time><span>Our paper <em>When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems</em> was accepted at <strong>ICML 2026</strong>.</span></li>
-  <li><time datetime="2026-03-20">Mar 20, 2026</time><span>Our work <em>EMPalm</em> was selected for a talk at New England Security Day.</span></li>
-  <li><time datetime="2026-01-29">Jan 29, 2026</time><span>Our paper <em>EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels</em> was accepted at <strong>ACM SenSys 2026</strong>.</span></li>
-</ul>
+- **Oct 2026:** Our paper *Detect, Localize, and Explain: Interactive Hierarchical Log Anomaly Analytics with LLM Augmentation* was accepted at **IEEE ICDM 2026 (Demo Track)**. [PDF](https://arxiv.org/pdf/2605.09222) · [Demo](https://leima0324.github.io/KRONE_Demo_official/)
+- **Aug 2026:** Completed my AI security research internship at **ByteDance Security**.
+- **Jun 8, 2026:** Joined **ByteDance Security** to work on AI security, with a focus on deployable safeguards for LLM-based agents.
+- **Apr 30, 2026:** Our paper *When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems* was accepted at **ICML 2026**.
+- **Mar 20, 2026:** Our work *EMPalm* was selected for a talk at **New England Security Day**.
+- **Jan 29, 2026:** Our paper *EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels* was accepted at **ACM SenSys 2026**.
