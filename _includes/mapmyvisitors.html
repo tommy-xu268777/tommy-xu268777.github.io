@@ -11,7 +11,7 @@
       (function () {
         var container = document.currentScript.parentElement;
         var sidebar = container.closest('.sidebar');
-        // Recheck the provider's animation when the sidebar itself scrolls.
+        /* Recheck the provider's animation when the sidebar itself scrolls. */
         if (sidebar) {
           sidebar.addEventListener('scroll', function () {
             if (window.globe_jq) {
@@ -19,7 +19,7 @@
             }
           }, { passive: true });
         }
-        // The provider inserts its link asynchronously and defaults to its homepage.
+        /* The provider inserts its link asynchronously and defaults to its homepage. */
         function updateStatsLink() {
           var link = container.querySelector('#mmvst_a');
           if (!link) return false;
