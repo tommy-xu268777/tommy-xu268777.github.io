@@ -58,14 +58,13 @@
   color: var(--global-text-color);
 }
 
-.sidebar .visitor-map__globe {
-  width: 160px;
-  min-height: 176px;
+.sidebar .visitor-map__widget {
+  width: 240px;
   max-width: 100%;
 }
 
-/* The provider waits for full window visibility and otherwise hides this layer.
-   A fixed, independently scrolling sidebar needs the globe visible immediately. */
-.sidebar .visitor-map .mmvst_inner {
+.sidebar .visitor-map__widget img {
   display: block;
+  width: 100%;
+  height: auto;
 }
