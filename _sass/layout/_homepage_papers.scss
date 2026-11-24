@@ -1,4 +1,4 @@
-/* Homepage publication rows: original figure beside the paper details. */
+/* Shared publication rows: original figure beside the paper details. */
 .page__content .paper-list {
   margin: 1.5em 0 2em;
 }
@@ -40,7 +40,8 @@
 
 .page__content .paper-list__authors,
 .page__content .paper-list__links,
-.page__content .paper-list__venue {
+.page__content .paper-list__venue,
+.page__content .paper-list__metadata {
   margin: 0;
   line-height: 1.5;
 }

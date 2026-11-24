@@ -18,6 +18,9 @@
         {% if paper.demo_url %}<a href="{{ paper.demo_url }}">[Demo]</a>{% endif %}
       </p>
       <p class="paper-list__venue"><em>[{{ paper.venue | escape }}]</em></p>
+      {% if include.show_details and paper.details %}
+      <p class="paper-list__metadata">{{ paper.details | escape }}</p>
+      {% endif %}
     </div>
   </article>
   {% endfor %}

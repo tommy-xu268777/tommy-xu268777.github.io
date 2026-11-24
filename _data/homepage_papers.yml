@@ -1,3 +1,4 @@
+# Shared by the homepage and the Papers page.
 # Replace a thumbnail by updating image and image_alt below.
 # Set image to an empty string to leave the image column blank.
 - id: krone
@@ -16,6 +17,7 @@
   title: "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems"
   authors: "<strong>Haowen Xu</strong>, Xue Tan, Lei Ma, Zhihao Zhang, Chao Wang, Qingze Wang, Ping Chen, Jun Dai, and Xiaoyan Sun"
   venue: "ICML 2026"
+  details: "Acceptance rate: 26.6%."
   paper_url: "https://proceedings.mlr.press/v306/xu26ax.html"
   image: "/images/papers/acmas.png"
   image_alt: "AcMAS framework for activation-based detection and mitigation in multi-agent systems"
@@ -27,6 +29,7 @@
   title: "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels"
   authors: "<strong>Haowen Xu</strong>, Tianya Zhao, Xuyu Wang, et al."
   venue: "ACM SenSys 2026"
+  details: "Saint-Malo, France. Acceptance rate: 19.8%."
   paper_url: "https://arxiv.org/pdf/2510.07533"
   image: "/images/papers/empalm.png"
   image_alt: "EMPalm attack scenario for recovering palm biometrics from electromagnetic emissions"
@@ -38,6 +41,7 @@
   title: "VibLeak: Towards Practical Covert Data Leakage via Phone Vibrations"
   authors: "Junye Jiang, Jingcheng Ju, <strong>Haowen Xu</strong>, Zhenlu Tan, Duohe Ma, Jun Dai, and Xiaoyan Sun"
   venue: "IEEE MILCOM 2025"
+  details: "pp. 999–1004."
   paper_url: "/files/VibLeak.pdf"
   image: "/images/papers/vibleak.png"
   image_alt: "VibLeak system for encoding data as phone vibrations and reconstructing files"
@@ -49,6 +53,7 @@
   title: "MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals"
   authors: "<strong>Haowen Xu</strong>, Tianya Zhao, et al."
   venue: "ICICS 2025"
+  details: "Nanjing, China. Acceptance rate: 28%."
   paper_url: "/files/MagWatch.pdf"
   image: "/images/papers/magwatch.png"
   image_alt: "MagWatch pipeline from smartwatch electromagnetic signals to app and activity recognition"
