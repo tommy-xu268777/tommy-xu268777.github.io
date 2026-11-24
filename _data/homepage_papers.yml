@@ -1,0 +1,57 @@
+# Replace a thumbnail by updating image and image_alt below.
+# Set image to an empty string to leave the image column blank.
+- id: krone
+  title: "Detect, Localize, and Explain: Interactive Hierarchical Log Anomaly Analytics with LLM Augmentation"
+  authors: "Lei Ma, Suhani Chaudhary, Ethan Shanbaum, Athanasios Tassiadamis, Peter M. VanNostrand, Dennis M. Hofmann, <strong>Haowen Xu</strong>, and Elke Rundensteiner"
+  venue: "IEEE ICDM 2026 (Demo)"
+  paper_url: "https://arxiv.org/pdf/2605.09222"
+  demo_url: "https://leima0324.github.io/KRONE_Demo_official/"
+  image: "/images/papers/krone.png"
+  image_alt: "Krone framework for hierarchy extraction, log sequence decomposition, and modular anomaly detection"
+  image_width: 1035
+  image_height: 762
+  image_source: "https://arxiv.org/pdf/2605.09222, Figure 2"
+
+- id: acmas
+  title: "When Agents Go Rogue: Activation-Based Detection of Malicious Behaviors in Multi-Agent Systems"
+  authors: "<strong>Haowen Xu</strong>, Xue Tan, Lei Ma, Zhihao Zhang, Chao Wang, Qingze Wang, Ping Chen, Jun Dai, and Xiaoyan Sun"
+  venue: "ICML 2026"
+  paper_url: "https://proceedings.mlr.press/v306/xu26ax.html"
+  image: "/images/papers/acmas.png"
+  image_alt: "AcMAS framework for activation-based detection and mitigation in multi-agent systems"
+  image_width: 1154
+  image_height: 362
+  image_source: "https://arxiv.org/html/2607.06807v1/Workflow.png, Figure 2"
+
+- id: empalm
+  title: "EMPalm: Exfiltrating Palm Biometric Data via Electromagnetic Side-Channels"
+  authors: "<strong>Haowen Xu</strong>, Tianya Zhao, Xuyu Wang, et al."
+  venue: "ACM SenSys 2026"
+  paper_url: "https://arxiv.org/pdf/2510.07533"
+  image: "/images/papers/empalm.png"
+  image_alt: "EMPalm attack scenario for recovering palm biometrics from electromagnetic emissions"
+  image_width: 1325
+  image_height: 435
+  image_source: "https://arxiv.org/html/2510.07533v1/attack_scenario.png, Figure 1"
+
+- id: vibleak
+  title: "VibLeak: Towards Practical Covert Data Leakage via Phone Vibrations"
+  authors: "Junye Jiang, Jingcheng Ju, <strong>Haowen Xu</strong>, Zhenlu Tan, Duohe Ma, Jun Dai, and Xiaoyan Sun"
+  venue: "IEEE MILCOM 2025"
+  paper_url: "/files/VibLeak.pdf"
+  image: "/images/papers/vibleak.png"
+  image_alt: "VibLeak system for encoding data as phone vibrations and reconstructing files"
+  image_width: 902
+  image_height: 561
+  image_source: "/files/VibLeak.pdf, Figure 2"
+
+- id: magwatch
+  title: "MagWatch: Exposing Privacy Risks in Smartwatches through Electromagnetic Signals"
+  authors: "<strong>Haowen Xu</strong>, Tianya Zhao, et al."
+  venue: "ICICS 2025"
+  paper_url: "/files/MagWatch.pdf"
+  image: "/images/papers/magwatch.png"
+  image_alt: "MagWatch pipeline from smartwatch electromagnetic signals to app and activity recognition"
+  image_width: 1365
+  image_height: 243
+  image_source: "/files/MagWatch.pdf, Figure 4"

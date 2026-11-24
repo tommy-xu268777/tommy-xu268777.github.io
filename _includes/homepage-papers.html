@@ -1,0 +1,24 @@
+<div class="paper-list" role="list">
+  {% for paper in site.data.homepage_papers %}
+  <article class="paper-list__item" role="listitem" aria-labelledby="paper-{{ paper.id }}">
+    <div class="paper-list__thumbnail{% if paper.image == nil or paper.image == '' %} paper-list__thumbnail--empty{% endif %}">
+      {% if paper.image and paper.image != '' %}
+      <img src="{{ paper.image | relative_url }}" alt="{{ paper.image_alt | escape }}" width="{{ paper.image_width }}" height="{{ paper.image_height }}" loading="lazy" decoding="async">
+      {% endif %}
+    </div>
+    <div class="paper-list__details">
+      <h3 class="paper-list__title" id="paper-{{ paper.id }}"><span aria-hidden="true">📄</span> {{ paper.title | escape }}</h3>
+      <p class="paper-list__authors"><span aria-hidden="true">✍️</span> {{ paper.authors }}</p>
+      <p class="paper-list__links">
+        {% if paper.paper_url contains '://' %}
+        <a href="{{ paper.paper_url }}">[Paper]</a>
+        {% else %}
+        <a href="{{ paper.paper_url | relative_url }}">[Paper]</a>
+        {% endif %}
+        {% if paper.demo_url %}<a href="{{ paper.demo_url }}">[Demo]</a>{% endif %}
+      </p>
+      <p class="paper-list__venue"><em>[{{ paper.venue | escape }}]</em></p>
+    </div>
+  </article>
+  {% endfor %}
+</div>
